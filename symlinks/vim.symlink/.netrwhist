@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/home/funky/Source/kv_umbrella/apps/kv_server/lib/kv_server'
+let g:netrw_dirhist_2='/home/funky/Source/kv_umbrella/apps/kv/config'
+let g:netrw_dirhist_3='/home/funky/Source/tasy/lib/tasy'
+let g:netrw_dirhist_4='/home/funky/Source/tasy/lib/tasy/fs'
+let g:netrw_dirhist_5='/home/funky/Source/tasy/lib/tasy'

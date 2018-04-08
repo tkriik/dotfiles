@@ -1,0 +1,29 @@
+execute pathogen#infect()
+syntax on
+filetype plugin indent on
+
+inoremap jk <ESC>
+
+set autoread
+set nu
+
+let mapleader = " "
+nnoremap <leader>l :bn<cr>
+nnoremap <leader>h :bp<cr>
+nnoremap <leader>d :bd<cr>
+
+" vim-airline
+let g:airline_theme='base16_solarized'
+
+" vim-bufferline
+let g:airline#extensions#bufferline#enabled = 1
+
+" haskell-vim
+let g:haskell_indent_if = 3
+let g:haskell_indent_case = 2
+let g:haskell_indent_let = 4
+let g:haskell_indent_where = 6
+let g:haskell_indent_before_where = 2
+let g:haskell_indent_do = 3
+let g:haskell_indent_in = 1
+let g:haskell_indent_guard = 2
